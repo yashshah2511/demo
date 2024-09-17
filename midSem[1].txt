@@ -1,0 +1,232 @@
+==========================UNIT 01   Introduction to Cyber Security==========================
+1. What is cyber security
+	- Cybersecurity refers to the practice of protecting computer systems, networks, devices, and sensitive information 
+	  from unauthorized access, theft, damage, disruption, or attacks.
+	- it ensures the confidenatiality, integrity and availbilty
+	- it is used to protect the system from various harmful factors
+	
+2. What is information security
+	- infoSec is the way to protect the information from the unauthorized acceess or destruction
+-------------------------------------------------------------------------------------------------------------------------------
+3. Importance of Cybersecurity
+	- Data protection
+	- Prevent financial loss
+	- Maintain Trust
+	- Prevents harmful threats
+	- Prevent identity theft
+-------------------------------------------------------------------------------------------------------------------------------
+4. Principles of Cybersecurity
+	- CIA : 
+		a. Confidentiality : 
+			- ensures the access should be to authorized person only.
+			- by using encryption, access control, strong authentication
+		b. Integrity : 
+			- ensures that the information or data must remains accurate, unchanged and complete during the data transmission or proccesing
+			- by using hashing, digital signature
+		c. Availbilty :
+			- ensures the information & resources are availble when authorized person needs it.
+			- by regular maintainance, redudancy
+-------------------------------------------------------------------------------------------------------------------------------
+5. Role of Cybersecurity in modern organizations
+	a. Protection of intellectual property 
+		ensures that organization's intellectual property, assets, patents, etc are safe from unauthorized acceess
+	b. Business continuity  
+		helps to maintain business operations without any cyber attacks
+	c. Customer trust
+		build trust between customer by protecting their sensitive data
+	d. Mitigating insider threats
+		provide a acceess control so that only authorized person can change critical information
+-------------------------------------------------------------------------------------------------------------------------------
+6. Define risk management
+	- it involves the procces of identifying, assesing risks followed by coordinated efforts to minimize the unfortunate incidents
+7. Risk management techniques
+	- risk avoidance
+	- risk reducation
+	- risk transfer
+	- risk acceptance
+-------------------------------------------------------------------------------------------------------------------------------
+8. Risk management procces
+	- develop plan
+	- identify risks & vulnerability
+	- mitigate risks & vulnerability
+	- monitoring
+	- prepare report
+	- plan for recovery
+	
+9. Risk Assessment Process
+	- identify risks
+	- identify threats
+	- identify vulnerabilities
+	- analyze risks 
+	- determine risk levels
+-------------------------------------------------------------------------------------------------------------------------------
+	
+==========================UNIT 02 Threats & attacks==========================
+
+1. Define cyber threat.
+	- refers to malicious or harmful action or activity which could potentially damage or disrupt the system or operations or data or services.
+	* types:
+		a. Active attacks:
+			- attacker tries to modify or steal the direct data 
+			- can harm integrity & availbilty
+			- victim get informed about attack
+		b. Passive attacks:
+			- attacker tries to copy or modify the content of data
+			- can harm confidenatiality
+			- victim doesn't get informed about attack
+--------------------------------------------------------------------------------------------------------------------
+2. Define malware attacks
+	- knows as malicious software
+	- is a any software that developed to cause harm 
+	- can be used for stealing sensitive data, unauthorized access or disrupting the operations
+	
+	*Types : 
+		a. Computer viruses:
+			- is a type of malicious software which replicates itself to manipulate the system by inserting its own code
+			- can be inserted into legimate file or program to enter the system
+		b. Worms:
+			- is a self-replicating malware which spread across the networks
+			- has a standalone capabilities to attach with to host program
+		c. RansomWare:
+			- is a malware to encrypt the file from victim's system and make them unable to decrypt
+			- and demand ransom exchange for decryption
+		d. Trojan:
+			- also known as trojan horses
+			- acts as a legitimate software or program but carries malicious code inside it
+			- after installation it give unauthorized acceess
+		e. Spyware:
+			- is designed to monitor the user's behaviour and activities without having user's consent
+			- used to gather the critical & sensitive information of users
+		f. Adware:
+			- is used to display unwanted advertisements to users 
+			- might not harm the devices but can slow down services	
+			- can also work as spyware
+--------------------------------------------------------------------------------------------------------------------
+3. Define Phishing attacks
+	- is a cyber attack in which attacker act as a legitimate entity to steal the information of the user
+	
+	*Types :
+		a. Email phishing:
+			- is most common phishing attack
+			- attacker send the fraud mails to victims which appears to be legitimate source
+			- attackers send emails to user that shows the urgence message to user with malicious link
+		b. Spear phishing:
+			- more accurate form of phishing
+			- attacker gathers information abount specific person or organization 
+			- makes attack more convicing by usingt gathered information
+		c. Vishing:
+			- is a voice phishing
+			- attackers make fraud calls to trick the victims's to get their sensitivee data
+			- attackers act as a legitimate caller id by spoofing
+		d. Smishing:
+			- is a sms phishing
+			- attacker send fraud messages and send malicious codes or links with it 
+			- tricks to get information by sending sms that looks like real 
+--------------------------------------------------------------------------------------------------------------------
+4. DoS attacks
+	- is a "Denial of service" attack
+	- makes the system or service unavailble for its intended users 
+	- use to make excessive amount of traffic or request to make unavailble
+	- aim to disrupt the proper working of the system
+	- makes the sytem slower in response or unavailble
+	- targets the network layer or web server to make unusual traffic
+	
+	** Types:
+		a. DDos attack: 
+			- distributed dos attack
+			- more sophisticated version of dos attack
+			- multiple devices like botnets use to make multiple traffic on server or network
+			- send traffic simultenously from multiple location 
+		b. SYN flood attack:
+			- sends the large amount the syncronized requests to the network or server
+			- exploits the TCP handshake procces without responding the syn requests
+		c. UDP flood attack:
+			- used to slow down or crash the services by sending huge amount of User datagram protocol(UDP) to the random ports
+--------------------------------------------------------------------------------------------------------------------
+5. Man-in-the-middle attack:
+	- kind of spyware 
+	- used to steal or manipulate the data in transit
+	- attacker secretly intercepts and alter transmission of data from two endpoints
+	- basically, listens all the communication from the two senders 
+	
+	** types
+		a. Session-Hijacking:
+			- attackers steal the user's cookies or session storage and can gain unauthorized access
+		b. WIFI evesdropping:
+			- attacks on weakly secured wifi networks by placing themselves between users and network router		
+--------------------------------------------------------------------------------------------------------------------
+6. Insider threats:
+	- can be caused by a person within the organization to misuse their access system
+	- they can be any stackholders connected to organization
+	- can be intentionally or unintentionally
+	- can cause to unwanted data breach, identity leak
+	
+	** types:
+		a. Malicious insider :
+			- intentionally cause the attack to harm the organization
+			- used to steal sensitive or critical information
+		b. Negligent insider :
+			- unintentionally cause the harm to the system
+		c. Compromised insider :
+			- external attacker tries to attack by using the internal individual to get acceess of system
+--------------------------------------------------------------------------------------------------------------------
+7. Define authorization and authentication
+	* authentication :
+		- procces of verifying the identity of the user of the system
+		- used to prove the identity
+	* authorization :
+		- procces of determine the permissions or access of the authorized user
+		- controls the user's rights and acceess
+--------------------------------------------------------------------------------------------------------------------
+
+==========================UNIT 03 network security==========================
+
+1. TCP/IP
+	- transmission control protocol for internet protocol
+	- used for data transmission which provides standardlized set of rules
+	- divided into two layers :
+		a. Transport layer for data transfer
+		b. Internet layer for routing of data packets between devices
+		
+	* benefits:
+		reliabilitty 
+		compatibility 
+		open standards
+		scalibility
+--------------------------------------------------------------------------------------------------------------------
+2. Network vulnerabilities
+	- are the weakness in the network's design or implementation which can be exploited by the attackers
+	- can lead to unauthorized acceess, data breach, system disruption
+	
+	** common network vulnerabilities
+		1. outdated software
+		2. firewall misconfiguration
+		3. weak passwords
+		4. unsecured network points
+		5. phishing attacks
+		6. insider attacks	
+--------------------------------------------------------------------------------------------------------------------
+3. Firewalls
+	- is a crucial component of network security
+	- used to block the illegitimate network traffic to be entered from the system
+	- act as a barrier between trusted internal and untrusted external network
+	- monitors the incoming and outgoing network traffic 
+	
+	** types:
+		a. packet filtering 
+			- at network layer and monitors network packets
+		b. stateful inspection firewall
+			- monitors the active connection by state of the traffic to provide enhanced security
+		c. proxy firewalls
+			- at application layer acts as a intermediatery to filter the network traffic based on application data
+		d. next gen firewall
+			- combines traditional firewall with enhanced features for intrusion prevention
+		e. unified threat firewall
+			- integrate the multiple features into single firewall appliance			
+--------------------------------------------------------------------------------------------------------------------
+4. IDS & IPS
+	* IDS										* IPS
+		- intrusion detection system 				- intrusion prevention system
+		- monitors malicious network activities     - builds the features to prevent detected intrusion
+		- it only detects but not react at that 	- blocks the malicious traffic
+		
